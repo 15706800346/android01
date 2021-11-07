@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/movie_theme"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="电影：你好李焕英"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+    <View
+        android:layout_width="10dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/metro_theme"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:text="地铁"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
